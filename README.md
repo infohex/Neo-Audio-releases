@@ -24,12 +24,29 @@ Each directory always holds the latest build; per-version downloads are under Re
 "虚拟舞台"第一次使用时会从 [Neo-Audio-models](https://github.com/infohex/Neo-Audio-models) 下载一次分离模型（168 MB），之后留在浏览器里。
 The "virtual stage" downloads its separation model (168 MB) once from Neo-Audio-models on first use and keeps it in the browser.
 
+## 怎么用 / How to use
+
+在有声音的页面上点工具栏的 Neo Audio 图标激活插件，页面底部会出现这个圆钮：
+
+Click the Neo Audio toolbar icon on a page with sound to activate the extension; this round button appears at the bottom of the page:
+
+![圆钮 / Round button](screenshots/button.png)
+
+圆钮会随着音量轻轻跳动；**点一下它就唤出面板**，再点一下收起。圆钮和面板都可以拖到你喜欢的位置，位置会记住。
+
+The button pulses with the level; **click it to open the panel**, click again to fold it away. Both the button and the panel can be dragged anywhere, and the positions are remembered.
+
 ## 界面 / Screenshots
 
 **EQ 与显示屏 / EQ and the display** — 10 段 EQ 带互扰补偿；显示屏这里是波形视图，Kenwood 青白风格。
 10-band EQ with interaction compensation; the display is in waveform view, "Kenwood" cyan style.
 
 ![EQ](screenshots/eq.png)
+
+**显示屏单独弹出 / The display on its own** — 双击显示屏，它会脱离面板浮在页面上（面板收起），可以拖动、右键改大小和透明度，再双击回到面板。
+Double-click the display and it floats on the page by itself (the panel folds away); drag it, right-click for size and opacity, double-click again to put it back.
+
+![显示屏 / Display](screenshots/display.png)
 
 **虚拟环绕 / Virtual surround** — 5.1 上混后六路独立增益与静音，耳机（HRTF）或音箱渲染，LFE 分频、导向强度、环绕延时等；显示屏切到频谱视图。
 Six channel gains and mutes after the 5.1 upmix, headphone (HRTF) or speaker rendering, LFE crossover, steering, surround delay; the display in spectrum view.
