@@ -24,6 +24,17 @@ Each directory always holds the latest build; per-version downloads are under Re
 "虚拟舞台"第一次使用时会从 [Neo-Audio-models](https://github.com/infohex/Neo-Audio-models) 下载一次分离模型（168 MB），之后留在浏览器里。
 The "virtual stage" downloads its separation model (168 MB) once from Neo-Audio-models on first use and keeps it in the browser.
 
+## 强烈推荐用耳机 / Headphones strongly recommended
+
+虚拟环绕和虚拟舞台都是按耳机（HRTF 双耳渲染）设计的：左耳只听到左声道、右耳只听到右声道，方位和距离感才成立。
+用音箱放的话，左声道的声音也会传到右耳、右声道也会传到左耳（左右交叉串扰），方位线索被抵消大半，达不到最佳效果。
+面板上的"音箱"渲染只是尽量补救，不是替代。
+
+Virtual surround and the virtual stage are designed for headphones (binaural HRTF rendering): the azimuth and distance cues
+only work when the left ear hears only the left channel and the right ear only the right. With loudspeakers each channel also
+reaches the opposite ear (left / right crosstalk), which cancels most of those cues, so the result is far from the best.
+The "speakers" rendering mode on the panel is a best-effort compensation, not a substitute.
+
 ## 怎么用 / How to use
 
 在有声音的页面上点工具栏的 Neo Audio 图标激活插件，页面底部会出现这个圆钮：
